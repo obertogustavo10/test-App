@@ -1,0 +1,82 @@
+.App {
+  text-align: left;
+  list-style: none ;
+}
+
+.colorGreen{
+  background: -webkit-linear-gradient(left, rgb(108, 199, 43), rgb(72, 187, 136));
+}
+.iconNabvar{
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+.buttonNavbar{
+color: black;
+font-size: 20px;
+margin-bottom: 15px;
+text-decoration: none;
+}
+.buttonNavbar:hover{
+  background: -webkit-linear-gradient(left, rgb(108, 199, 43), rgb(72, 187, 136));
+  color: white;
+  }
+.row-team{
+  margin-top: 100px;
+}
+.button-team{
+  background: -webkit-linear-gradient(left, rgb(108, 199, 43), rgb(72, 187, 136));
+  margin-bottom: 10px;
+  text-align: center;
+}
+.button-team:hover{
+  background: white;
+  color: rgb(15, 210, 122)
+}
+.title{
+  font-weight:700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.row-card{
+  margin-bottom: 20px;
+}
+.shadowCard:hover{
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.listCard{
+  margin-top: 10px;
+}
+.form-check-input:checked {
+  background-color: rgb(15, 210, 122) ;
+  border-color: rgb(108, 199, 43);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
